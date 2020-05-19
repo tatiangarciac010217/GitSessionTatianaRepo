@@ -1,0 +1,150 @@
+Microsoft Windows [Versión 10.0.18363.778]
+(c) 2019 Microsoft Corporation. Todos los derechos reservados.
+C:\Users\mariaangelicacastro>dir
+ El volumen de la unidad C es Windows
+ El número de serie del volumen es: 8822-53DF
+ Directorio de C:\Users\mariaangelicacastro
+13/05/2020  08:53 a. m.    <DIR>          .
+13/05/2020  08:53 a. m.    <DIR>          ..
+13/04/2020  01:25 p. m.    <DIR>          .android
+02/04/2020  01:52 p. m.    <DIR>          .AndroidStudio3.6
+23/04/2020  03:59 p. m.               231 .bash_history
+23/04/2020  03:39 p. m.    <DIR>          .config
+17/04/2020  04:26 p. m.    <DIR>          .eclipse
+22/04/2020  09:36 a. m.    <DIR>          .Icecream Screen Recorder
+23/04/2020  08:51 p. m.    <DIR>          3D Objects
+23/04/2020  08:51 p. m.    <DIR>          Contacts
+14/05/2020  05:55 p. m.    <DIR>          Desktop
+14/05/2020  09:39 a. m.    <DIR>          Documents
+12/05/2020  09:21 a. m.    <DIR>          Downloads
+23/04/2020  08:51 p. m.    <DIR>          Favorites
+23/04/2020  08:51 p. m.    <DIR>          Links
+27/04/2020  03:21 p. m.    <DIR>          log
+23/04/2020  08:51 p. m.    <DIR>          Music
+28/04/2020  05:08 p. m.                 0 npm
+02/04/2020  09:20 a. m.    <DIR>          OneDrive
+23/04/2020  08:51 p. m.    <DIR>          Pictures
+01/04/2020  02:09 p. m.    <DIR>          Postman
+18/07/2019  10:48 p. m.    <DIR>          Roaming
+23/04/2020  08:51 p. m.    <DIR>          Saved Games
+23/04/2020  08:51 p. m.    <DIR>          Searches
+23/04/2020  08:51 p. m.    <DIR>          Videos
+               2 archivos            231 bytes
+              23 dirs  195.771.731.968 bytes libres
+C:\Users\mariaangelicacastro>cd desktop
+C:\Users\mariaangelicacastro\Desktop>dir
+ El volumen de la unidad C es Windows
+ El número de serie del volumen es: 8822-53DF
+ Directorio de C:\Users\mariaangelicacastro\Desktop
+14/05/2020  05:55 p. m.    <DIR>          .
+14/05/2020  05:55 p. m.    <DIR>          ..
+15/04/2020  09:03 a. m.           355.470 Acceso a GitHub administrador por Azure AD Lulobank.docx
+05/05/2020  07:02 p. m.    <DIR>          CREDENCIALES
+23/04/2020  01:16 p. m.           257.919 Embargos_Ejecución - Versión 2.pdf
+23/04/2020  06:08 p. m.             1.603 Encription.postman_environment.json
+23/04/2020  03:57 p. m.             1.771 Git Bash.lnk
+22/04/2020  09:41 a. m.        87.802.139 ice_video_20200422-093658.webm
+27/04/2020  03:26 p. m.        72.932.983 ice_video_20200427-152141.webm
+01/04/2020  04:58 p. m.           121.688 Int.png
+25/03/2020  12:19 a. m.             1.446 Microsoft Edge.lnk
+28/04/2020  02:02 p. m.    <DIR>          POSTMAN
+12/05/2020  09:16 a. m.             2.252 Postman.lnk
+28/04/2020  08:05 a. m.               127 QA Sftp
+14/05/2020  05:55 p. m.    <DIR>          Repositorios
+30/04/2020  07:09 a. m.           516.055 Sin título.png
+13/05/2020  10:56 p. m.             2.282 Slack.lnk
+28/04/2020  05:30 p. m.           254.271 template.hbs
+02/04/2020  09:44 a. m.             2.304 Vysor.lnk
+              14 archivos    162.252.310 bytes
+               5 dirs  195.779.514.368 bytes libres
+C:\Users\mariaangelicacastro\Desktop>dir Repositorios
+ El volumen de la unidad C es Windows
+ El número de serie del volumen es: 8822-53DF
+ Directorio de C:\Users\mariaangelicacastro\Desktop\Repositorios
+14/05/2020  05:55 p. m.    <DIR>          .
+14/05/2020  05:55 p. m.    <DIR>          ..
+               0 archivos              0 bytes
+               2 dirs  195.778.117.632 bytes libres
+C:\Users\mariaangelicacastro\Desktop>cd Repositorios
+C:\Users\mariaangelicacastro\Desktop\Repositorios>git status
+fatal: not a git repository (or any of the parent directories): .git
+C:\Users\mariaangelicacastro\Desktop\Repositorios>git init
+Initialized empty Git repository in C:/Users/mariaangelicacastro/Desktop/Repositorios/.git/
+C:\Users\mariaangelicacastro\Desktop\Repositorios>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+C:\Users\mariaangelicacastro\Desktop\Repositorios>git add.
+git: 'add.' is not a git command. See 'git --help'.
+The most similar command is
+        add
+C:\Users\mariaangelicacastro\Desktop\Repositorios>git add .
+C:\Users\mariaangelicacastro\Desktop\Repositorios>git status
+On branch master
+No commits yet
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   EMBARGO200513.txt
+C:\Users\mariaangelicacastro\Desktop\Repositorios>git commit -m "mi primer commit"
+[master (root-commit) 8818dd8] mi primer commit
+ Committer: Maria Angelica Castro <acastro@lulobank.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+    git config --global --edit
+After doing this, you may fix the identity used for this commit with:
+    git commit --amend --reset-author
+ 1 file changed, 2 insertions(+)
+ create mode 100644 EMBARGO200513.txt
+C:\Users\mariaangelicacastro\Desktop\Repositorios>git init
+Reinitialized existing Git repository in C:/Users/mariaangelicacastro/Desktop/Repositorios/.git/
+C:\Users\mariaangelicacastro\Desktop\Repositorios>git status
+On branch master
+nothing to commit, working tree clean
+C:\Users\mariaangelicacastro\Desktop\Repositorios>touch ejemplo.txt
+"touch" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+C:\Users\mariaangelicacastro\Desktop\Repositorios>hola.txt
+"hola.txt" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+C:\Users\mariaangelicacastro\Desktop\Repositorios>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ejemplo.txt
+nothing added to commit but untracked files present (use "git add" to track)
+C:\Users\mariaangelicacastro\Desktop\Repositorios>git add ejemplo.txt
+C:\Users\mariaangelicacastro\Desktop\Repositorios>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   ejemplo.txt
+C:\Users\mariaangelicacastro\Desktop\Repositorios>git commit -m "1 ejercicio"
+[master c8da57f] 1 ejercicio
+ Committer: Maria Angelica Castro <acastro@lulobank.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+    git config --global --edit
+After doing this, you may fix the identity used for this commit with:
+    git commit --amend --reset-author
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ejemplo.txt
+C:\Users\mariaangelicacastro\Desktop\Repositorios>git status
+On branch master
+nothing to commit, working tree clean
+C:\Users\mariaangelicacastro\Desktop\Repositorios>git log
+commit c8da57f583d43d414b563af83a8d89359e091842 (HEAD -> master)
+Author: Maria Angelica Castro <acastro@lulobank.com>
+Date:   Thu May 14 18:42:15 2020 -0500
+    1 ejercicio
+commit 8818dd80edba0fddd4e12827f0d41aab0786253e
+Author: Maria Angelica Castro <acastro@lulobank.com>
+Date:   Thu May 14 18:14:17 2020 -0500
+    mi primer commit
+C:\Users\mariaangelicacastro\Desktop\Repositorios>
